@@ -35,7 +35,7 @@ jobs:
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
-           extended: true # Uncomment if you need Sass/SCSS support
+          extended: true # Uncomment if you need Sass/SCSS support
       - name: Build
         run: hugo --minify
       - name: Upload artifact
